@@ -1,0 +1,588 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+#conteiner{
+  width: 1857px;
+  z-index: 2;
+}
+.header{
+  background-color: #176778;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.links{
+  font-family: 'Bebas Neue', sans-serif;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 0px 5px;
+  position: relative;
+  left: 900px;
+  bottom: -10px;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.links:hover{
+  color: purple;
+}
+.main1{
+  background:url('../img/BACK1.jpg') no-repeat center center;
+  height:1000px;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.main2{
+  height: 700px;
+  background-color: grey;
+  width: 100%;
+}
+
+.main3{
+  background-color:#691602;
+  height: 500px;
+  width: 100%;
+}
+.main4{
+  height: 600px;
+  background-color:purple;
+  width: 100%;
+}
+.main5{
+  background:url('../img/BACK2.jpg') no-repeat center center;
+  height:700px;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+
+}
+.main6{
+  height: 550px;
+  background-color: white;
+  width: 100%;
+
+}
+.footer{
+  width: 100%;
+  height: 70px;
+  background-color: #176778;
+
+}
+
+ .text1 {
+  color: #691602;
+  position: absolute;
+  left: 900px;
+  top:1300px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    text-align-last: justify;
+    word-spacing: -1px;
+
+
+
+}
+.text2{
+  color: #691602;
+position: absolute;
+left: 900px;
+bottom: -300px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.text3{
+  color: #691602;
+  position: absolute;
+  left: 820px;
+  bottom: -150px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.text4{
+  top: 400px;
+  color: #691602;
+  position: absolute;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
+  -webkit-text-stroke: 2px #176778;
+}
+.text5{
+  position: relative;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: center;
+  bottom: -50px
+}
+.text6{
+  color: black;
+  position: absolute;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    text-align-last: justify;
+    word-spacing: -1px;
+    left: 400px;
+    top: 2400px;
+
+}
+.text7{
+  position: relative;
+font-family: 'Bebas Neue', sans-serif;
+font-size: 48px;
+font-weight: bolder;
+text-align: center;
+bottom: -50px
+}
+.text8{
+  color: #691602;
+position: relative;
+left: 400px;
+bottom: -100px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  width: 300px;
+}
+.text9{
+  color: #691602;
+  position: absolute;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    text-align-last: justify;
+    word-spacing: -1px;
+    left: 400px;
+    top: 3700px;
+}
+.text10{
+  color: #691602;
+  position: relative;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    left: 450px;
+    top: 250px;
+    width: 300px;
+}
+.text11{
+  font-size: 18px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom:25px;
+
+}
+.text12{
+  color: #691602;
+position: relative;
+left: 1000px;
+bottom: 80px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  width: 150px;
+}
+
+.text13{
+  position: relative;
+font-family: 'Bebas Neue', sans-serif;
+font-size: 48px;
+font-weight: bolder;
+text-align: center;
+bottom: -50px;
+color: purple;
+
+}
+
+#img1{
+  position: relative;
+  height: 400px;
+  width: 450px;
+  left: 300px;
+  top: 200px;
+  border-radius: 20px;
+}
+#port{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  position: relative;
+  left: 200px;
+  bottom: -10px;
+  color: black;
+  text-decoration: none;
+}
+#CV{
+  font-size: 25px;
+  color: red;
+  position: relative;
+  background: green;
+border-radius: 10px;
+border: 4px solid brown;
+cursor: pointer;
+padding: 10px 20px;
+left: 448px;
+bottom: -130px;
+text-decoration: none;
+transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
+}
+
+#CV:hover{
+  color: green;
+  background-color: red;
+  border: solid white;
+}
+#servise{
+  font-size: 48px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+
+.but{
+  color: red;
+  font-size: 18px;
+  position: relative;
+  background:#176778;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 4px solid black;
+  padding: 40px 30px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+
+}
+
+#but1{
+  left: 260px;
+  top: 200px;
+}
+#but2{
+  left: 310px;
+  top: 200px;
+}
+#but3{
+  left: 360px;
+  top: 200px;
+}
+
+.but:hover{
+  color: green;
+  background-color: red;
+
+}
+.progress-container1 {
+  width: 25%; /* Ширина контейнера progress bar */
+  background-color: #f1f1f1; /* Цвет фона контейнера */
+  border: 1px solid #ddd; /* Граница контейнера */
+  border-radius: 5px; /* Закругление углов */
+  overflow: hidden; /* Обрезание содержимого за пределами контейнера */
+
+
+}
+
+.progress-bar {
+  width: 90; /* Начальная ширина progress bar (0%) */
+  height: 5px; /* Высота progress bar */
+  background-color: #4caf50; /* Цвет заполненной части progress bar */
+  text-align: center; /* Выравнивание текста внутри progress bar (опционально) */
+  line-height: 20px; /* Высота строки текста (опционально) */
+  color: #fff; /* Цвет текста (опционально) */
+}
+#myProgressBar1{
+  position: relative;
+  left: 1000px;
+  bottom: -150px
+}
+#myProgressBar2{
+  position: relative;
+  left: 1000px;
+  bottom: -200px
+}
+#myProgressBar3{
+  position: relative;
+  left: 1000px;
+  bottom: -250px
+}
+#myProgressBar4{
+  position: relative;
+  left: 1000px;
+  bottom: -300px
+}
+
+.skills{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  width: 150px;
+}
+#skill1{
+  position: relative;
+  left: 1000px;
+  top: 95px;
+}
+#skill2{
+  position: relative;
+  left: 1000px;
+  top: 125px;
+}
+#skill3{
+  position: relative;
+  left: 1000px;
+  top: 155px;
+}
+#skill4{
+  position: relative;
+  left: 1000px;
+  top: 185px;
+}
+
+#score1{
+  position: relative;
+  left: 1425px;
+  top: -5px;
+}
+#score2{
+  position: relative;
+  left: 1425px;
+  top: 27px;
+}
+#score3{
+  position: relative;
+  left: 1425px;
+  top: 58px;
+}
+#score4{
+  position: relative;
+  left: 1425px;
+  top: 90px;
+}
+#readmore{
+  font-size: 25px;
+  color: red;
+  position: relative;
+  background: green;
+border-radius: 10px;
+border: 4px solid brown;
+cursor: pointer;
+padding: 10px 20px;
+left: 400px;
+bottom: -70px;
+text-decoration: none;
+transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
+}
+#readmore:hover{
+  color: green;
+  background-color: red;
+  border: solid white;
+}
+.inputs{
+  border-radius: 5px;
+  border: solid #691602;
+  font-size: 18px;
+}
+.inputs::placeholder{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#input1{
+  position: relative;
+  left: 1000px;
+  top: -85px;
+  width: 250px;
+  height: 40px;
+}
+
+#input2{
+  position: relative;
+  left: 1020px;
+  top: -85px;
+  width: 250px;
+  height: 40px;
+}
+#input3{
+  position: relative;
+  left: 480px;
+  top: -15px;
+  width: 530px;
+  height: 40px;
+}
+#input4{
+  position: relative;
+  left: -60px;
+  top: 80px;
+  width: 530px;
+  height: 80px;
+}
+
+#message{
+  font-size: 25px;
+  color: red;
+  position: relative;
+  background: green;
+border-radius: 10px;
+border: 4px solid brown;
+cursor: pointer;
+padding: 10px 20px;
+top: 180px;
+left: -600px;
+text-decoration: none;
+transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
+}
+
+#message:hover{
+  color: green;
+  background-color: red;
+  border: solid white;
+
+}
+.button{
+  width: 400px;
+  height: 350px;
+  color: red;
+  font-size: 18px;
+  background:#176778;
+  border-radius: 20px;
+  border: 4px solid black;
+  padding: 40px 30px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+
+}
+
+.button:hover{
+  background-color: purple;
+  color: black;
+}
+
+.images{
+  width: 200px;
+  height: 200px;
+  border-radius: 120px;
+  border: 6px solid grey;
+  transition: border, 0.5s ease
+}
+
+.images:hover{
+  border: 4px solid #176778;
+  width: 210px;
+  height: 210px;
+}
+
+#norton {
+    position: relative;
+    bottom: 25px;
+}
+
+#durden{
+  position: relative;
+  bottom: 25px;
+}
+
+#marla{
+  position: relative;
+  bottom: 25px;
+}
+
+#button1{
+  position: absolute;
+left: 225px;
+top:3070px;
+
+}
+
+#button2{
+  position: absolute;
+  left: 725px;
+  top:3070px;
+}
+
+#button3{
+  position: absolute;
+  left: 1225px;
+  top:3070px;
+}
+
+
+.naming{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+#naming1{
+  position: relative;
+  bottom: 20px;
+}
+
+#naming2{
+  position: relative;
+  bottom: 20px;
+}
+#naming3{
+  position: relative;
+  bottom: 20px;
+}
+
+#Lorem1{
+  position: relative;
+  top: -10px;
+}
+
+#Lorem2{
+  position: relative;
+  top: -10px;
+
+}
+
+#Lorem3{
+  position: relative;
+  top: -10px;
+}
+
+#ghost1{
+  position: relative;
+  top: 220px;
+  color: grey;
+  visibility: hidden;
+}
+
+#ghost2{
+  position: relative;
+  top: -480px;
+  color: blue;
+  visibility: hidden;
+}
+#ghost3{
+    position: relative;
+    top: 420px;
+    color: blue;
+    visibility: hidden;
+  }
+
+  #ghost4{
+      position: relative;
+      top: -60px;
+      color: blue;
+visibility: hidden;
+    }
+    #ghost5{
+        position: relative;
+        top: -60px;
+        color: blue;
+  visibility: hidden;
+      }
